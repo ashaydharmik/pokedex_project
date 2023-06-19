@@ -1,9 +1,9 @@
 import React from 'react';
-import Main from './Main';
+import Main from './Components/Main';
 import './Components/style.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Pokeinfo from './Pokeinfo';
-import Favorite from './Favorite';
+import Pokeinfo from './Components/Pokeinfo';
+import Favorite from './Components/Favorite';
 
 function App() {
   return (
