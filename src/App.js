@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Pokeinfo from './Components/Pokeinfo';
 import Favorite from './Components/Favorite';
 
-function app() {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -18,7 +18,7 @@ function app() {
   );
 }
 
-export default app;
+export default App;
 
 
 
