@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color:#fe8953;
+}
+
+
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .content {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fed653;
+    transition: all 0.3s ease;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 670px;
+    /* margin-bottom: 50px; */
+  }
+  
+  .card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+
+
+
+.pokeinfo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fca5a5;
+  }
+  .poke-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 650px;
+    border: 5px solid black;
+    text-align: center;
+    background-color: #fc7333;
+  }
+  .pokeinfo-container h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  
+  .pokeinfo-container img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .pokeinfo-container .abilities,
+  .pokeinfo-container .base-stat {
+    margin-bottom: 10px;
+  }
+  
+  .pokeinfo-container .abilities h2,
+  .pokeinfo-container .base-stat h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(9, 38, 117);
+    font-weight: bold;
+  }
+  ul li{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(9, 38, 117);
+    font-weight: bold;
+
+  }
+
+  .stat-name {
+    color: #d8ff15;
+    font-weight: bold;
+    margin-right: 5px;
+    text-transform: uppercase;
+  }
+
+  .pokeinfo-container .base-stat h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(9, 38, 117);
+    font-weight: bold;
+  }
+  
+  .abilities p{
+    font-size: 20px;
+    font-weight:bolder;
+    text-decoration: underline;
+    color: #d8ff15;
+    margin-bottom: 5px;
+  }
+
+button {
+  position: relative;;
+  padding: 10px 20px;
+  margin-top: 80px;
+  /* margin-bottom: 20px; */
+  background-color: #107fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 26px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  padding:5px 50px;
+}
+.btn-group button{
+  margin: 10px 5px;
+  margin-top: 80px;
+}
+
+button:hover {
+  background-color: #1466d2;
+  color: white;
+  
+}
+
+.section {
+  position:static;
+  margin-bottom: -70px;
+}
+
+.search-bar , .favoriteBtn{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.favoriteBtn{
+  padding: 10px;
+  width: 150px;
+  font-size: 16px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+.search-bar  input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+
+.favorite-heart {
+  width: 24px; 
+  height: 24px;
+  cursor: pointer;
+  fill: rgb(255, 0, 0); 
+  transition: fill 0.3s ease; 
+}
+
+.favorite-heart.clicked {
+  fill: red; 
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
