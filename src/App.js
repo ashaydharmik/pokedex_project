@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main />} />
         <Route path="/pokeinfo/:id" element={<Pokeinfo />} />
-//         <Route path="/" element={<Favorite />} />
+        <Route path="/" element={<Favorite />} />
 
       </Routes>
     </BrowserRouter>
